@@ -13,7 +13,6 @@ body{
     min-width: 480px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4-x 8px #f70000 (0,0,0.2);
 }
@@ -34,6 +33,7 @@ h1{
 .formulario input[type="number"]{
     width: 200px;
     padding: 10px;
+    margin-bottom:10px;
     border-radius: 5px;
     border: 1px solid #ffb0b0;
     font-size: 1.1em;
@@ -49,3 +49,27 @@ h1{
     cursor: pointer;
     transition: backgrond-color;
 }
+
+
+.formulario input[type+"submit"]:hover{
+    background-color:#218838;
+}
+
+paragrafosResultado p {
+    font-size:1.2em;
+    text-align:center;
+    margin:10px 0;
+}
+
+.ultimoResultado{
+    color:white;
+    padding:3px;
+    border-redius:5px;
+    font-size:1.3em;
+    text-align:center;
+}
+
+.ultimoResultado.errado{
+    background-color:#28a745;
+}
+    
