@@ -73,3 +73,22 @@ paragrafosResultado p {
     background-color:#28a745;
 }
     
+.ultimoResultado.correto{
+    background-color:#28a745;
+ 
+    .botaoReiniciar{
+    dispaly:block;
+    margin:20px auto;
+    padding: 10px 20px;
+    backgraund-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: backgraund-color 0.3s ease;
+}
+    
+
+
+
