@@ -75,6 +75,7 @@ paragrafosResultado p {
     
 .ultimoResultado.correto{
     background-color:#28a745;
+}
  
     .botaoReiniciar{
     dispaly:block;
@@ -89,6 +90,8 @@ paragrafosResultado p {
     transition: backgraund-color 0.3s ease;
 }
     
-
+.botaoReiniciar:houver {
+    background-color: #0056b3;
+}
 
 
