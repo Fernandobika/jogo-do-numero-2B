@@ -13,6 +13,7 @@ body{
     min-width: 480px;
     margin: 0 auto;
     background: #ffffff;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4-x 8px #f70000 (0,0,0.2);
 }
