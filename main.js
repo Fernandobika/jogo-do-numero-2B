@@ -7,7 +7,6 @@ const campoPalpite= querySelector('.campoPalpite');
 let contagemPalpite = 1;
 let botaoReiniciar;
 
-
 function verificarPalpite(){
     const palpiteUsuario = Number(campoPalpite.value);
     if(contagemPalpites === 1) {
@@ -30,7 +29,8 @@ function verificarPalpite(){
         ultimoResultado.style.backgroundColor = "red";
         if (palpiteUsuario <numeroAleatorio) {
             baixoOuAlto.textContent = "O ultimo palpite foi muito baixo";
-        }else if (palpiteUsuario > numeroAleatorio) 
+        }else if (palpiteUsuario > numeroAleatorio) {
+            baixoOuAlto.textContent = "o ultimo palpite foi muito alto+;
             } 
     }
             
