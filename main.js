@@ -55,15 +55,17 @@ function finalizar Jogo() {
 function reiniciarJogo() {
     contagemPalpites= 1;
     const paragrafosReinicar = document.querySelectorAll('paragrafosResultados ');
-    for (const paragrafoReiniciar of paragrafosReiniciar)
+    for (const paragrafoReiniciar of paragrafosReiniciar) {
     paragrafoReiniciar.textcontent ="";
 }
 
-
-
-
-
-
-
+    botaoReiniciar.parentNode.removeChild(botaoReiniciar);
+    campoPalpite.disabled = false;
+    envioPalpite.disabled = false;
+    campoPalpite.value ="";
+    campoPalpite.focus();
+    ultimoResultado.style.backgroundColor = 'white';
+    numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+}
 
 
