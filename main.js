@@ -21,8 +21,8 @@ function verificarPalpite(){
         baixoOuAlto.textContent ="";
         finalizador();
     } else if (contagemPalpites === 10) {
-        ultimoResultado.textcontent = "SE FUDEU!!";
-        baixoOuAlto.textcontent = "";
+        ultimoResultado.textContent = "SE FUDEU!!";
+        baixoOuAlto.textContent = "";
         finalizarJogo();
     } else{
         ultimoResultado.textContent = "Errado";
@@ -48,13 +48,12 @@ function finalizar Jogo() {
     document.body.appendChild(botaoReiniciar);
     botaoReiniciar.textContent = 'Reiniciar Jogo';
     botaoReiniciar.classList.add('botaoReiniciar');
-    document.body.appendChild(botaoReiniciar);
     botaoReiniciar.addEventListener('click', reiniciarJogo);
 }
 
 function reiniciarJogo() {
     contagemPalpites= 1;
-    const paragrafosReinicar = document.querySelectorAll('paragrafosResultados ');
+    const paragrafosReinicar = document.querySelectorAll('paragrafosResultados p');
     for (const paragrafoReiniciar of paragrafosReiniciar) {
     paragrafoReiniciar.textcontent ="";
 }
