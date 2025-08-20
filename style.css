@@ -15,7 +15,7 @@ body{
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4-x 8px #f70000 (0,0,0.2);
+    box-shodow: 0 4-x 8px #f70000 (0,0,0.2);
 }
 
 h1{
@@ -40,7 +40,7 @@ h1{
     font-size: 1.1em;
 }
 
-.formulario input [type="submit"]{
+.formulario input[type="submit"]{
     padding: 10px 20px;
     background-color: #678a3c;
     color: #e6c153;
@@ -56,7 +56,7 @@ h1{
     background-color:#218838;
 }
 
-paragrafosResultado p {
+paragrafosResultados p {
     font-size:1.2em;
     text-align:center;
     margin:10px 0;
@@ -71,18 +71,17 @@ paragrafosResultado p {
 }
 
 .ultimoResultado.errado{
-    background-color:#28a745;
-}
+    background-color:#dc3545;
     
 .ultimoResultado.correto{
     background-color:#28a745;
 }
  
     .botaoReiniciar{
-    dispaly:block;
+    display:block;
     margin:20px auto;
     padding: 10px 20px;
-    backgraund-color: #007bff;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -91,7 +90,7 @@ paragrafosResultado p {
     transition: backgraund-color 0.3s ease;
 }
     
-.botaoReiniciar:houver {
+.botaoReiniciar:hover {
     background-color: #0056b3;
 }
 
