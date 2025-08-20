@@ -3,14 +3,14 @@ const palpites = document.querySelector('.palpites');
 const ultimoResultado = document.querySelector('.ultimoResultado');
 const baixoOuAlto = document.querySelector('.baixoOuAlto');
 const envioPalpite = document.querySelector('.envioPalpite');
-const campoPalpite= querySelector('.campoPalpite');
+const campoPalpite= document=querySelector('.campoPalpite');
 let contagemPalpite = 1;
 let botaoReiniciar;
 
 function verificarPalpite(){
     const palpiteUsuario = Number(campoPalpite.value);
     if(contagemPalpites === 1) {
-        palpiteUsuario.textContent = "Palpites anteriores:"
+        palpites.textContent = "Palpites anteriores:"
     }
 
     palpites.textContent += palpiteUsuario +" ";
